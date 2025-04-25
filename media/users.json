@@ -1,0 +1,23 @@
+{
+    "677106ffb47c4": {
+        "fullname": "Esther Smith",
+        "email": "smith.esther12@gmail.com",
+        "password": "$2y$12$2kEXRTBDd13cdlqmtWRtT.BZP04IlFj8Zb9B7feEWW6TsQ.2rRxia",
+        "id": "677106ffb47c4",
+        "admin": false
+    },
+    "6772dde18c86f": {
+        "fullname": "Add Mino",
+        "email": "admin@carrental.com",
+        "password": "$2y$12$kCQuKRONZjzdMVm8uHKJAeAXMMkpjXvR7QGeJqFbeLM6.EJpIgpSy",
+        "id": "6772dde18c86f",
+        "admin": true
+    },
+    "6772dedb87376": {
+        "fullname": "Anna",
+        "email": "something@gmail.com",
+        "password": "$2y$12$ZXsasCqq\/PJWmOHXQ6p\/m.s4cT6TAO3kckeSLZe.5m5sfbIvCkxz6",
+        "admin": false,
+        "id": "6772dedb87376"
+    }
+}

@@ -1,0 +1,339 @@
+/* General layout adjustments */
+body {
+  background-color: #f5f5f5; /* Soft light gray background */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.box {
+  background-color: #d7a8b1; /* Soft muted rose */
+  border-radius: 15px;
+  width: 18%;
+  padding: 15px;
+  border: 1px solid #e1d4d4; /* Light gray border */
+  background-size: cover; 
+  background-position: center; 
+  background-repeat: no-repeat; 
+  height: 350px; 
+  margin: 10px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  background-color: #6b7f90; /* Soft muted blue */
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  margin-left: auto;
+}
+
+button {
+  padding: 12px 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #aabac1; /* Soft grayish blue */
+  border: 1px solid #ced3d7;
+  border-radius: 15px;
+  box-shadow: 0 5px #d6dfe5; /* Soft shadow */
+}
+
+button:hover {
+  background-color: #8f9ca4;
+}
+
+button:active {
+  background-color: #748090;
+  box-shadow: 0 3px #a5b0b6;
+  transform: translateY(3px);
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.button1 {
+  padding: 12px 22px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #7b8e97; /* Soft blue-gray */
+  border-radius: 8px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.button1:hover,
+.button1:focus {
+  background-color: #627c85;
+  transform: scale(1.05);
+}
+
+.button1:active {
+  background-color: #4d5c64;
+  transform: scale(0.95);
+}
+
+/* Form styling */
+form {
+  max-width: 600px;
+  margin: 20px 0 20px auto;
+  padding: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 15px;
+  background-color: #f1e5e5; /* Soft pinkish background */
+  border-radius: 12px;
+  font-family: 'Poppins', sans-serif;
+}
+
+form label {
+  font-size: 14px;
+  color: #333;
+}
+
+form input,
+form select {
+  padding: 12px;
+  font-size: 14px;
+  border: 1px solid #ddd; /* Light gray border */
+  border-radius: 8px;
+  background-color: #e4c9d7; /* Light blush pink */
+  transition: all 0.2s;
+  width: 100%;
+}
+
+form input:focus,
+form select:focus {
+  outline: none;
+  border-color: #e403e8;
+  box-shadow: 0 0 5px rgba(62, 2, 92, 0.847);
+}
+
+@media (max-width: 480px) {
+  form {
+    padding: 15px;
+    gap: 10px;
+  }
+}
+
+.inline-group {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.inline-group div {
+  flex: 1;
+}
+
+.inline-group div label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.under {
+  display: block;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1px;
+}
+
+
+/* General Body and Layout */
+body {
+  background-color: #f9f9f9; /* Light background color */
+  font-family: 'Arial', sans-serif;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.car-details {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 20px auto;
+}
+
+.car-details h2 {
+  font-size: 1.8em;
+  color: #4d4d4d;
+  margin-bottom: 10px;
+}
+
+.car-details p {
+  font-size: 1.2em;
+  color: #666;
+  margin: 5px 0;
+}
+
+.car-details img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 15px;
+}
+
+/* Header Styling */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 30px;
+  background-color: #3b4d5c; /* Darker muted blue */
+  color: #ffffff;
+  border-bottom: 2px solid #e1e1e1;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #f1a40e; /* Highlight on hover */
+}
+
+/* Button Styling */
+button, .button1 {
+  padding: 12px 20px;
+  font-size: 14px;
+  font-weight: 600;
+  color: #fff;
+  background-color: #5078a3; /* Soft blue */
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s;
+}
+
+button:hover, .button1:hover {
+  background-color: #3e5b77; /* Slightly darker blue */
+  transform: translateY(-2px);
+}
+
+button:active, .button1:active {
+  background-color: #2f4354; /* Darker blue */
+  transform: translateY(2px);
+}
+
+/* Form Styles */
+form {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 650px;
+  margin: 30px auto;
+  box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #4d4d4d;
+  margin-bottom: 5px;
+  display: block;
+}
+
+form input, form select {
+  width: 100%;
+  padding: 14px;
+  margin: 10px 0 20px;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f5f5f5;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+form input:focus, form select:focus {
+  border-color: #5078a3; /* Focus color */
+  box-shadow: 0px 0px 8px rgba(80, 120, 163, 0.5);
+  outline: none;
+}
+
+/* Error Message Styles */
+.error-message {
+  color: #ff4d4d;
+  font-size: 14px;
+  margin-bottom: 15px;
+  font-weight: 500;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  form {
+    padding: 20px;
+    margin: 20px;
+  }
+
+  .car-details {
+    max-width: 100%;
+    padding: 15px;
+  }
+
+  header {
+    padding: 15px 20px;
+  }
+
+  nav ul {
+    gap: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 10px;
+  }
+
+  form {
+    padding: 15px;
+    gap: 15px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .car-details {
+    padding: 10px;
+  }
+}

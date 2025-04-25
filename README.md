@@ -1,7 +1,7 @@
 #iCar Rental
 iCar is a dynamic PHP web application developed for a real-world car rental service. It allows users to browse and filter available cars, register or log in to book rentals, and includes a secure admin dashboard for managing the fleet.
 
-Features
+𐙚 Features
 - [x] Homepage: all cars and their basic attributes are listed.
 - [x] Homepage: clicking on a car’s card/name navigates to the car’s details page.
 - [x] Car Details Page: displays the car’s attributes and image.
